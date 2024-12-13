@@ -6,6 +6,8 @@ WartexStore is a PHP-based online store for games and applications with essentia
 - **User Login with Element API**: Seamless authentication via [elemsocial.com](https://elemsocial.com).
 - **MySQL Database**: Reliable data storage for users, games, and purchases.
 - **Admin Panel**: Manage store content and settings efficiently.
+- **Game Pages**: Individual pages for each game, similar to popular stores.
+- **User Profiles**: Personalized user profiles for account management.
 - **Basic Functionality**: Core features implemented (library currently non-functional).
 - **Simple Design**: Basic front-end layout (requires improvement).
 
