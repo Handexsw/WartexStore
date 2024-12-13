@@ -1,4 +1,4 @@
-# ![Store Icon](MediaArchive/icon.jpg =20x20) WartexStore
+# <img src="MediaArchive/icon.jpg" width="20" height="20"> WartexStore
 
 
 WartexStore is a PHP-based online store for games and applications with essential features to simplify user experience and management.
