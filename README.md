@@ -2,6 +2,8 @@
 
 WartexStore is a PHP-based online store for games and applications with essential features to simplify user experience and management.
 
+This is my first project on PHP, and there may be bugs or issues.
+
 ## Features
 - **User Login with Element API**: Seamless authentication via [elemsocial.com](https://elemsocial.com).
 - **MySQL Database**: Reliable data storage for users, games, and purchases.
@@ -24,7 +26,7 @@ WartexStore is a PHP-based online store for games and applications with essentia
 
 2. Set up the database:
    - Import the provided SQL file (`database.sql`) into your MySQL server.
-   - Configure database credentials in the `config.php` file.
+   - Locate database connection settings in the project files (e.g., `/system/...` or similar) and update them with your MySQL credentials.
 
 3. Set up Element API:
    - Register your app on [elemsocial.com](https://elemsocial.com).
@@ -34,8 +36,7 @@ WartexStore is a PHP-based online store for games and applications with essentia
    - Place the project files in your web server’s root directory.
    - Ensure the `public` directory is accessible.
 
-5. Access the store:
-   - Open your browser and navigate to `http://yourdomain.com`.
+5. ALL:)
 
 ## Usage
 - **Admin Panel**: Accessible via `/admin`. Use admin credentials to log in.
