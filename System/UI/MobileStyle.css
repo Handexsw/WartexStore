@@ -1,0 +1,559 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    background-color: rgb(30, 29, 30);  
+    box-flex: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    overflow-x: hidden;
+}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.loader img {
+    max-width: 100px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+appstext {
+    color: #cbcbcb;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-right:3px;
+    text-overflow: ellipsis;
+    font-size: 13.5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    overflow: hidden;
+}
+.news-container img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    left: 30px;
+    border-radius: 15px;
+    user-select: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    word-wrap: break-word;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    max-width: 100%;
+    max-height: 30%;
+    transition: opacity 1.9s ease-in-out;
+    transition: image 0.5s ease, color 0.5s ease;
+    
+}
+.search-container {
+    background-color: rgb(20, 20, 20); /* Цвет фона контейнера поиска */
+    padding: 8px; /* Добавляем отступы вокруг контейнера поиска */
+    border-radius: 5px; /* Добавляем скругление углов */
+    flex: 0.5; /* Расширяем контейнер по всей доступной ширине */
+    display: flex; /* Используем flexbox для позиционирования элементов внутри контейнера */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    position: relative;
+    text-align: center;
+    tab-size: 4;
+    font-variation-settings: normal;
+    width: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition:
+        background-color 0.5s ease,
+        color 0.5s ease;
+    font-family: "Open Sans", sans-serif;
+    pointer-events: none;
+    justify-content: center;
+    display: flex;
+}
+.inner-container img {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    word-wrap: break-word;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+}
+.NewsButton {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none; 
+    padding: 10px 14px; 
+    cursor: pointer; 
+    left: 20px;
+    top: 176px;
+    position: absolute; 
+    border-radius: 80px;
+    position: center;
+    font-weight: bold;
+    user-select: none;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: transform 0.3s ease;
+    Color: rgb(92, 92, 92)
+    
+    
+}
+.News2Button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none; 
+    padding: 10px 14px; 
+    cursor: pointer; 
+    right: 20px;
+    top: 176px;
+    position: absolute; 
+    border-radius: 80px;
+    position: center;
+    font-weight: bold;
+    user-select: none;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: transform 0.3s ease; 
+    Color: rgb(92, 92, 92)
+    
+    
+}
+.custom-tabs {
+            box-shadow: 0px 1px 2px -1px rgb(0 0 0);
+            background: rgb(0 0 0);
+            border-radius: 10px;
+            width: 90%;
+            height: 37px;
+            padding: 5px;
+            margin-bottom: 7px;
+            display: inline-flex;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .PROFICO {
+    position: fixed;
+    right: 30px; /* Изменяем значение right на 30px */
+    top: 40%; 
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.NewsButton:hover {
+    transform: scale(1.03);
+}
+.News2Button:hover {
+    transform: scale(1.03);
+}
+.draggable-button {
+    background-color: #5050e3;
+    color: white;
+    border: none; 
+    padding: 10px 14.9px; 
+    cursor: pointer; 
+    position: absolute; 
+    border-radius: 15px;
+    top: 165px;
+    left: 24.03px;
+    position: center;
+    font-weight: bold;
+    user-select: none;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: transform 0.3s ease;
+    font-size: 14px;
+    font-weight: 100px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.draggable-button:hover {
+    background-color: rgb(71, 71, 205);
+    transition: background-color 0.2s ease, color 0.2s ease;
+    transform: scale(1.03);
+    transition: transform 0.05s ease;
+}
+
+headerapps {
+    background-color: rgb(29, 29, 29); 
+    padding: 10px 20px; 
+    border-radius: 10px;
+    user-select: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+app1, app2, app3 {
+    width: 150.1px;
+    height: 220px;
+    background-color: rgba(18, 11, 12, 0.403);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: inline-block;
+    user-select: none;
+    margin: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    left:10px
+}
+appgroup1,appgroup2,appgroup3,appgroup4 {
+    letter-spacing: 0.4px;
+    overflow: auto;
+    transition: .2s;
+    display: block;
+    width: 374px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+app1 img, app2 img, app3 img {
+    width: 20%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 20;
+    user-select: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    filter: drop-shadow(1px 5px 6px rgba(255, 255, 255, 0.09));
+}
+header img {
+    height: 60px; 
+    margin-right: 10px; 
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+header h1 {
+    font-size: 10px;
+    margin: 0; 
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+header a {
+    text-decoration: none; 
+    color: rgb(115, 115, 114); 
+    font-size: 18px; 
+    margin-right: 20px;
+    transition: color 0.3s;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+header a:hover,
+header a.active {
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top: 3px;
+}
+.search-container {
+
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .search-container input[type=text] {
+        padding: 8px; 
+        font-size: 14px; 
+        border: none; 
+        border-radius: 5px;
+        background-color: rgb(20, 20, 20);
+        color: rgb(255, 255, 255);
+        width: 100%;
+        font-family:  sans-serif;
+        font-weight: 480;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        font-family: 'Open Sans', sans-serif;
+    }
+.profileIcon {
+    margin: auto;
+    height: 40px;
+    margin-top: 13px;
+    margin-right: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-weight: bold;
+    user-select: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    margin-left: 680px;
+    font-weight: bold;
+    user-select: none;
+    margin-top: 100px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.search-container {
+    background-color: rgb(20, 20, 20); /* Цвет фона контейнера поиска */
+    padding: 8px; /* Добавляем отступы вокруг контейнера поиска */
+    border-radius: 5px; /* Добавляем скругление углов */
+    flex: 0.9; /* Расширяем контейнер по всей доступной ширине */
+    display: flex; /* Используем flexbox для позиционирования элементов внутри контейнера */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    position: relative;
+    text-align: center;
+    tab-size: 4;
+    font-variation-settings: normal;
+    width: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition:
+        background-color 0.5s ease,
+        color 0.5s ease;
+    font-family: "Open Sans", sans-serif;
+    pointer-events: none;
+    justify-content: center;
+    display: flex;
+}
+smenatemi button {
+    background-color: #ff0000;
+}
+.podcherk {
+    background-color: rgb(47, 82, 162);
+}
+.privacyicon {
+    background-color: aliceblue;
+}
+
+.comingsoon {
+    color: rgb(255, 255, 255);
+    margin-left: 90px;
+    font-weight: bold;
+    user-select: none;
+    margin-top: 250px;
+    font-size: 30px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.comingsoon {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.dot-animation {
+    animation: dotAnimation 1s infinite;
+}
+
+@keyframes dotAnimation {
+    0%, 50% {
+        content: "";
+    }
+    51%, 100% {
+        content: "...";
+    }
+}
+
+.PROFICO {
+            margin: auto;
+            position: relative;
+            left: 14px;
+            height: 40px;
+            border-radius: 50%;
+            margin-top: 7px;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            margin-left: 10px; 
+            top: 27px;
+        }
+        .mobile-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color:rgba(25, 24, 26, 0.862); /* Прозрачность 50% */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 12px 0; /* Увеличить вертикальный отступ */
+            z-index: 1000;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(83, 83, 83, 0.186);
+        }
+
+        .nav-item {
+    color: rgb(115, 115, 114);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 0.8em;
+    width: 25%; /* Задаем фиксированную ширину каждому элементу */
+    box-sizing: border-box; /* Учитываем padding в общей ширине */
+}
+
+
+        .nav-item i {
+            margin-bottom: 10px; /* Увеличить промежуток между иконкой и текстом */
+        }
+
+        .nav-item.active {
+            color: rgb(255, 255, 255); /* Изменить цвет текста на активном элементе */
+        }
+
+        .nav-item.active i {
+            color: rgb(255, 255, 255); /* Изменить цвет иконки на активном элементе */
+        }
+
+        /* Показывать панель навигации только на мобильных устройствах */
+        @media (max-width: 768px) {
+            .mobile-nav {
+                display: flex;
+            }
+            .nav-item {
+                display: flex;
+            }
+        }
+        @media (min-width: 768px) {
+            .mobile-nav {
+                display: none;
+            }
+            .nav-item {
+                display:none;
+            }
+        }
+
+/* Перенесено сюда из блока .user-container и .game-container */
+.user-container p, .game-container p {
+    margin: 0;
+    font-size: 50px; /* Устанавливаем размер шрифта */
+    position: relative;
+    left: 10px;
+}
+.container {
+    background-color: rgba(18, 11, 12, 0.403);
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 20px);
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+}
+
+.containerGroup {
+    display: flex;
+    margin-bottom: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.spacer {
+    height: 10px;
+}
+
+.containerLeft,
+.containerRight {
+    background-color: rgba(18, 11, 12, 0.403);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    width: calc(900% - 20px);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.containerLeft {
+    width: calc(900% - 20px);
+}
+
+.containerRight {
+    width: calc(900% - 20px);
+}
+
+.profilePage {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 7px solid rgb(25, 21, 23);
+}
+
+.ProfileName {
+    border-radius: 10px;
+    color: #e6e6e6;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: calc(100% - 20px);
+    height: 150px;
+    background-color: rgba(18, 11, 12, 0.403);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Description {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    width: calc(100% - 20px);
+    padding: 17px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    min-height: 50px; /* Минимальная высота контейнера */
+    overflow: auto; /* Добавляем полосы прокрутки при необходимости */
+}
+
+
+.ProfileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
