@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    background-color: rgb(30, 29, 30);  
+    box-flex: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+        body h1, label,input,button{
+            margin-left: 30px;
+        }
+        header {
+            background-color: rgb(29, 29, 29);
+            border-radius: 10px;
+            margin-left: 10px;
+            width: 560px;
+            float: left;
+        }
+        header2 {
+            background-color: rgb(29, 29, 29);
+            border-radius: 10px;
+            margin-left: 20px;
+            width: 560px;
+            float: left;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .appInfoContainer {
+            margin-top: 10px;
+            overflow: hidden;
+            font-weight: bold;
+        }
+        .appInfo {
+            float: left;
+            margin-right: 10px;
+            font-weight: bold;
+            margin-left: 100px;
+        }
+        #appIcon {
+            max-width: 80px;
+            margin-left: 1px;
+            border-radius: 10px;
+        }
+        .deleteButton {
+            background-color: red;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+
+        }

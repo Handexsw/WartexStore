@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    background-color: rgb(30, 29, 30);  
+    box-flex: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
