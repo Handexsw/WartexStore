@@ -1,4 +1,5 @@
-# WartexStore
+# ![Store Icon](MediaArchive/icon.jpg) WartexStore
+
 
 WartexStore is a PHP-based online store for games and applications with essential features to simplify user experience and management.
 
