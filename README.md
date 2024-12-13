@@ -19,10 +19,7 @@ This is my first project on PHP, and there may be bugs or issues.
 - Web server (Apache, Nginx, etc.)
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/wartexstore.git
-   ```
+1. Upload to host (Shared/VPS)
 
 2. Set up the database:
    - Import the provided SQL file (`database.sql`) into your MySQL server.
