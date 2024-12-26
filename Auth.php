@@ -44,7 +44,7 @@ button {
     transform: translate(-50%, -50%);
     width: fit-content;
     padding: 10px 20px;
-    margin: 180px auto; /* Увеличил отступ, чтобы разделить кнопку и текст */
+    margin: 180px auto;
     font-size: 16px;
     border: none;
     border-radius: 5px;
@@ -60,7 +60,6 @@ button:hover {
 }
 
 
-/* Специфичные стили для элементов на странице */
 .indexss img {
     max-width: 100%;
     height: auto;
@@ -70,7 +69,7 @@ button:hover {
     color: #fff;
     text-align: center;
     max-width: 600px;
-    margin: 0 auto 10px; /* Центрирую текст по горизонтали и уменьшаю отступы */
+    margin: 0 auto 10px;
 }
 .indexss {
     position: absolute;
@@ -82,8 +81,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%; /* Добавляем явную ширину */
-    max-width: 600px; /* Задаем максимальную ширину для контейнера */
+    width: 100%;
+    max-width: 600px;
 }
 
 
