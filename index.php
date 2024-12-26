@@ -25,12 +25,12 @@ require 'System/Global/IsPanel.php';
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Скрипты -->
     <script src="System/JavaScript/index.js"></script>
     <script src="System/JavaScript/changecategori.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-</body>
+</body class="m-0 p-0 font-semibold bg-[#1e1d1e] transition-colors duration-500 ease-in-out">
     <header>
         <img src="MediaArchive/System/iconsite.png">
         <a href="index.php" class="active desktop-only">STORE</a>
