@@ -30,7 +30,7 @@ require 'System/Global/IsPanel.php';
     <script src="System/JavaScript/index.js"></script>
     <script src="System/JavaScript/changecategori.js"></script>
 </head>
-</body class="m-0 p-0 font-raleway font-semibold bg-[#1e1d1e] transition-colors duration-500 ease-in-out">
+</body>
     <header>
         <img src="MediaArchive/System/iconsite.png">
         <a href="index.php" class="active desktop-only">STORE</a>
